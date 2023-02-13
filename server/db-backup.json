@@ -1,0 +1,196 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Red T-Shirt",
+      "description": "A comfortable, classic red t-shirt.",
+      "price": 19.99,
+      "images": [
+        "https://example.com/images/red-tshirt-1.jpg",
+        "https://example.com/images/red-tshirt-2.jpg",
+        "https://example.com/images/red-tshirt-3.jpg"
+      ],
+      "details": {
+        "material": "Cotton",
+        "sizes": ["S", "M", "L", "XL"],
+        "brand": "Zara"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Blue Jeans",
+      "description": "Stylish, durable blue jeans for any occasion.",
+      "price": 49.99,
+      "images": [
+        "https://example.com/images/blue-jeans-1.jpg",
+        "https://example.com/images/blue-jeans-2.jpg",
+        "https://example.com/images/blue-jeans-3.jpg"
+      ],
+      "details": {
+        "material": "Denim",
+        "sizes": ["XS", "S", "M", "L"],
+        "brand": "H&M"
+      }
+    },
+    {
+      "id": 3,
+      "name": "White Sneakers",
+      "description": "Classic white sneakers for any outfit.",
+      "price": 29.99,
+      "images": [
+        "https://example.com/images/white-sneakers-1.jpg",
+        "https://example.com/images/white-sneakers-2.jpg",
+        "https://example.com/images/white-sneakers-3.jpg"
+      ],
+      "details": {
+        "material": "Leather",
+        "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10"],
+        "brand": "Nike"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Black Leather Jacket",
+      "description": "A sleek black leather jacket for any occasion.",
+      "price": 99.99,
+      "images": [
+        "https://example.com/images/black-jacket-1.jpg",
+        "https://example.com/images/black-jacket-2.jpg",
+        "https://example.com/images/black-jacket-3.jpg"
+      ],
+      "details": {
+        "material": "Leather",
+        "sizes": ["S", "M", "L", "XL"],
+        "brand": "Levi's"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Green Hoodie",
+      "description": "A comfortable green hoodie for a casual look.",
+      "price": 39.99,
+      "images": [
+        "https://example.com/images/green-hoodie-1.jpg",
+        "https://example.com/images/green-hoodie-2.jpg",
+        "https://example.com/images/green-hoodie-3.jpg"
+      ],
+      "details": {
+        "material": "Cotton",
+        "sizes": ["S", "M", "L"],
+        "brand": "Adidas"
+      }
+    },
+        {
+      "id": 6,
+      "name": "Striped Shirt",
+      "description": "A stylish striped shirt for a casual or professional look.",
+      "price": 29.99,
+      "images": [
+        "https://example.com/images/striped-shirt-1.jpg",
+        "https://example.com/images/striped-shirt-2.jpg",
+        "https://example.com/images/striped-shirt-3.jpg"
+      ],
+      "details": {
+        "material": "Cotton",
+        "sizes": ["S", "M", "L", "XL"],
+        "brand": "Zara"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Denim Shorts",
+      "description": "A comfortable pair of denim shorts for the summer.",
+      "price": 19.99,
+      "images": [
+        "https://example.com/images/denim-shorts-1.jpg",
+        "https://example.com/images/denim-shorts-2.jpg",
+        "https://example.com/images/denim-shorts-3.jpg"
+      ],
+      "details": {
+        "material": "Denim",
+        "sizes": ["US 4", "US 6", "US 8", "US 10"],
+        "brand": "H&M"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Sneakers",
+      "description": "A comfortable pair of sneakers for any outfit.",
+      "price": 59.99,
+      "images": [
+        "https://example.com/images/sneakers-1.jpg",
+        "https://example.com/images/sneakers-2.jpg",
+        "https://example.com/images/sneakers-3.jpg"
+      ],
+      "details": {
+        "material": "Canvas",
+        "sizes": ["US 7", "US 8", "US 9", "US 10", "US 11"],
+        "brand": "Converse"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Leather Jacket",
+      "description": "A classic leather jacket that never goes out of style.",
+      "price": 199.99,
+      "images": [
+        "https://example.com/images/leather-jacket-1.jpg",
+        "https://example.com/images/leather-jacket-2.jpg",
+        "https://example.com/images/leather-jacket-3.jpg"
+      ],
+      "details": {
+        "material": "Leather",
+        "sizes": ["S", "M", "L", "XL"],
+        "brand": "Michael Kors"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Cashmere Sweater",
+      "description": "A soft and warm cashmere sweater for a luxurious feel.",
+      "price": 129.99,
+      "images": [
+        "https://example.com/images/cashmere-sweater-1.jpg",
+        "https://example.com/images/cashmere-sweater-2.jpg",
+        "https://example.com/images/cashmere-sweater-3.jpg"
+      ],
+      "details": {
+        "material": "Cashmere",
+        "sizes": ["XS", "S", "M", "L"],
+        "brand": "Ralph Lauren"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Faux Fur Coat",
+      "description": "A cozy and stylish faux fur coat for the winter season.",
+      "price": 149.99,
+      "images": [
+        "https://example.com/images/faux-fur-coat-1.jpg",
+        "https://example.com/images/faux-fur-coat-2.jpg",
+        "https://example.com/images/faux-fur-coat-3.jpg"
+      ],
+      "details": {
+        "material": "Faux Fur",
+        "sizes": ["S", "M", "L"],
+        "brand": "Zara"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Athletic Leggings",
+      "description": "Stretchy and comfortable leggings for your daily workout.",
+      "price": 39.99,
+      "images": [
+        "https://example.com/images/athletic-leggings-1.jpg",
+        "https://example.com/images/athletic-leggings-2.jpg",
+        "https://example.com/images/athletic-leggings-3.jpg"
+      ],
+      "details": {
+        "material": "Nylon and Spandex",
+        "sizes": ["XS", "S", "M", "L"],
+        "brand": "Nike"
+      }
+    }
+  ]
+}
