@@ -1,22 +1,28 @@
 # React CRUD App
+This is an CodeAcademy React CRUD application exam;
 
 ## System requirements
-... Jūsų aprašymas ---
+* [Node.js](https://nodejs.org/en/) v16 or later
+  
+To view application, you must launch server and client apps.
+Make sure you lauched Server application first, only then Client.
 
-To view applications, you must launch server and client apps.
-Make sure you louched server application first, only then Client.
 
 ## Launching Server application
 <div style="padding-left: 40px">
 
 ### Installation
-VĖLIAU
+Open terminal in __./server__ folder and run: 
 
-### Lounch for development
-VĖLIAU
+```bash
+npm install
+```
 
-### Lounch for production
-VĖLIAU
+### Launch
+Open terminal in __./server__ folder and run:
+```bash
+npm run server
+``` 
 </div>
 
 ## Launching Client application
@@ -24,14 +30,24 @@ VĖLIAU
 <div style="padding-left: 40px">
 
 ### Installation
-... Jūsų aprašymas ---
+Open terminal in __./client__ folder and run:
+```bash
+npm install
+```
 
-### Lounch for development
-... Jūsų aprašymas, su komandos parašymu ---
+### Launch for development
+Open terminal in __./client__ folder and run:
+```bash
+npm start
+```
 
-### Lounch for production
-... Jūsų aprašymas, su komandos parašymu ---
+### Launch for production
+Open terminal in __./client__ folder and run:
+```bash
+npm run build
+```
 </div>
 
+
 ## View Code
-... Jūsų aprašymas, su nuoroda į repozitorijos kodą (****.dev***) ---
+You can view code in [online GitHub editor](https://github.dev/MariusDevelops/react-crud).
