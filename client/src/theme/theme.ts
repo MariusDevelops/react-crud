@@ -5,6 +5,11 @@ const theme = createTheme({
   zIndex: {
     appBar: 1250,
   },
+  palette: {
+    warning: {
+      main: '#ffeb3b',
+    },
+  },
 });
 
 export default theme;

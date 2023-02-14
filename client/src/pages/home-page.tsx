@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box } from '@mui/material';
 import ApiService from 'services/api-service';
+import ProductCard from './product-card';
 
 const HomePage = () => {
   const [products, setProducts] = React.useState<ProductModel[]>([]);
@@ -13,10 +14,25 @@ const HomePage = () => {
   }, []);
 
   return (
-    <Box sx={{ p: 2, border: '1px dashed grey', backgroundColor: 'lightBlue' }}>
-      <Box component="pre" sx={{ p: 2, border: '1px dashed grey', backgroundColor: 'lightgrey' }}>
-        {JSON.stringify(products, null, 4)}
-      </Box>
+    <Box sx={(theme) => ({
+      display: 'grid',
+      gridTemplateColumns: 'repeat(1, 1fr)',
+      gap: 2,
+      padding: 2,
+      maxWidth: theme.breakpoints.values.xl,
+      margin: 'auto',
+      [theme.breakpoints.up('sm')]: {
+        gridTemplateColumns: 'repeat(2, 1fr)',
+      },
+      [theme.breakpoints.up('md')]: {
+        gridTemplateColumns: 'repeat(3, 1fr)',
+      },
+      [theme.breakpoints.up('lg')]: {
+        gridTemplateColumns: 'repeat(4, 1fr)',
+      },
+    })}
+    >
+      {products.map((product) => <ProductCard key={product.id} {...product} />)}
     </Box>
   );
 };

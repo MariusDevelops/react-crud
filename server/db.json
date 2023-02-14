@@ -2,18 +2,17 @@
   "products": [
     {
       "id": 1,
-      "name": "Red T-Shirt",
-      "description": "A comfortable, classic red t-shirt.",
-      "price": 19.99,
+      "name": "Crinkled Chiffon Shirt",
+      "description": "Relaxed-fit shirt in crinkled chiffon. Collar, buttons at front, dropped shoulders, and long sleeves with button at cuffs. Rounded hem, slightly longer at back.",
+      "price": 29.99,
       "images": [
-        "https://example.com/images/red-tshirt-1.jpg",
-        "https://example.com/images/red-tshirt-2.jpg",
-        "https://example.com/images/red-tshirt-3.jpg"
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa8%2F0a%2Fa80a9948cd79b7ba6e235bd18b46f08b725b7625.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
       ],
       "details": {
-        "material": "Cotton",
-        "sizes": ["S", "M", "L", "XL"],
-        "brand": "Zara"
+        "material": "Chiffon",
+        "sizes": ["S", " M", " L", " XL"]
       }
     },
     {
@@ -22,9 +21,9 @@
       "description": "Stylish, durable blue jeans for any occasion.",
       "price": 49.99,
       "images": [
-        "https://example.com/images/blue-jeans-1.jpg",
-        "https://example.com/images/blue-jeans-2.jpg",
-        "https://example.com/images/blue-jeans-3.jpg"
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa8%2F0a%2Fa80a9948cd79b7ba6e235bd18b46f08b725b7625.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
       ],
       "details": {
         "material": "Denim",
@@ -38,14 +37,13 @@
       "description": "Classic white sneakers for any outfit.",
       "price": 29.99,
       "images": [
-        "https://example.com/images/white-sneakers-1.jpg",
-        "https://example.com/images/white-sneakers-2.jpg",
-        "https://example.com/images/white-sneakers-3.jpg"
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa8%2F0a%2Fa80a9948cd79b7ba6e235bd18b46f08b725b7625.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
       ],
       "details": {
-        "material": "Leather",
-        "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10"],
-        "brand": "Nike"
+        "material": "Chiffon",
+        "sizes": ["S", " M", " L", " XL"]
       }
     },
     {
@@ -54,14 +52,13 @@
       "description": "A sleek black leather jacket for any occasion.",
       "price": 99.99,
       "images": [
-        "https://example.com/images/black-jacket-1.jpg",
-        "https://example.com/images/black-jacket-2.jpg",
-        "https://example.com/images/black-jacket-3.jpg"
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa8%2F0a%2Fa80a9948cd79b7ba6e235bd18b46f08b725b7625.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
       ],
       "details": {
-        "material": "Leather",
-        "sizes": ["S", "M", "L", "XL"],
-        "brand": "Levi's"
+        "material": "Chiffon",
+        "sizes": ["S", " M", " L", " XL"]
       }
     },
     {
@@ -70,14 +67,13 @@
       "description": "A comfortable green hoodie for a casual look.",
       "price": 39.99,
       "images": [
-        "https://example.com/images/green-hoodie-1.jpg",
-        "https://example.com/images/green-hoodie-2.jpg",
-        "https://example.com/images/green-hoodie-3.jpg"
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa8%2F0a%2Fa80a9948cd79b7ba6e235bd18b46f08b725b7625.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
       ],
       "details": {
-        "material": "Cotton",
-        "sizes": ["S", "M", "L"],
-        "brand": "Adidas"
+        "material": "Chiffon",
+        "sizes": ["S", " M", " L", " XL"]
       }
     },
         {
@@ -86,14 +82,13 @@
       "description": "A stylish striped shirt for a casual or professional look.",
       "price": 29.99,
       "images": [
-        "https://example.com/images/striped-shirt-1.jpg",
-        "https://example.com/images/striped-shirt-2.jpg",
-        "https://example.com/images/striped-shirt-3.jpg"
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa8%2F0a%2Fa80a9948cd79b7ba6e235bd18b46f08b725b7625.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
       ],
       "details": {
-        "material": "Cotton",
-        "sizes": ["S", "M", "L", "XL"],
-        "brand": "Zara"
+        "material": "Chiffon",
+        "sizes": ["S", " M", " L", " XL"]
       }
     },
     {
@@ -102,14 +97,13 @@
       "description": "A comfortable pair of denim shorts for the summer.",
       "price": 19.99,
       "images": [
-        "https://example.com/images/denim-shorts-1.jpg",
-        "https://example.com/images/denim-shorts-2.jpg",
-        "https://example.com/images/denim-shorts-3.jpg"
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa8%2F0a%2Fa80a9948cd79b7ba6e235bd18b46f08b725b7625.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
       ],
       "details": {
-        "material": "Denim",
-        "sizes": ["US 4", "US 6", "US 8", "US 10"],
-        "brand": "H&M"
+        "material": "Chiffon",
+        "sizes": ["S", " M", " L", " XL"]
       }
     },
     {
@@ -118,14 +112,13 @@
       "description": "A comfortable pair of sneakers for any outfit.",
       "price": 59.99,
       "images": [
-        "https://example.com/images/sneakers-1.jpg",
-        "https://example.com/images/sneakers-2.jpg",
-        "https://example.com/images/sneakers-3.jpg"
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa8%2F0a%2Fa80a9948cd79b7ba6e235bd18b46f08b725b7625.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
       ],
       "details": {
-        "material": "Canvas",
-        "sizes": ["US 7", "US 8", "US 9", "US 10", "US 11"],
-        "brand": "Converse"
+        "material": "Chiffon",
+        "sizes": ["S", " M", " L", " XL"]
       }
     },
     {
@@ -134,14 +127,13 @@
       "description": "A classic leather jacket that never goes out of style.",
       "price": 199.99,
       "images": [
-        "https://example.com/images/leather-jacket-1.jpg",
-        "https://example.com/images/leather-jacket-2.jpg",
-        "https://example.com/images/leather-jacket-3.jpg"
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa8%2F0a%2Fa80a9948cd79b7ba6e235bd18b46f08b725b7625.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
       ],
       "details": {
-        "material": "Leather",
-        "sizes": ["S", "M", "L", "XL"],
-        "brand": "Michael Kors"
+        "material": "Chiffon",
+        "sizes": ["S", " M", " L", " XL"]
       }
     },
     {
@@ -150,14 +142,13 @@
       "description": "A soft and warm cashmere sweater for a luxurious feel.",
       "price": 129.99,
       "images": [
-        "https://example.com/images/cashmere-sweater-1.jpg",
-        "https://example.com/images/cashmere-sweater-2.jpg",
-        "https://example.com/images/cashmere-sweater-3.jpg"
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa8%2F0a%2Fa80a9948cd79b7ba6e235bd18b46f08b725b7625.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
       ],
       "details": {
-        "material": "Cashmere",
-        "sizes": ["XS", "S", "M", "L"],
-        "brand": "Ralph Lauren"
+        "material": "Chiffon",
+        "sizes": ["S", " M", " L", " XL"]
       }
     },
     {
@@ -166,14 +157,13 @@
       "description": "A cozy and stylish faux fur coat for the winter season.",
       "price": 149.99,
       "images": [
-        "https://example.com/images/faux-fur-coat-1.jpg",
-        "https://example.com/images/faux-fur-coat-2.jpg",
-        "https://example.com/images/faux-fur-coat-3.jpg"
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa8%2F0a%2Fa80a9948cd79b7ba6e235bd18b46f08b725b7625.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
       ],
       "details": {
-        "material": "Faux Fur",
-        "sizes": ["S", "M", "L"],
-        "brand": "Zara"
+        "material": "Chiffon",
+        "sizes": ["S", " M", " L", " XL"]
       }
     },
     {
@@ -182,14 +172,13 @@
       "description": "Stretchy and comfortable leggings for your daily workout.",
       "price": 39.99,
       "images": [
-        "https://example.com/images/athletic-leggings-1.jpg",
-        "https://example.com/images/athletic-leggings-2.jpg",
-        "https://example.com/images/athletic-leggings-3.jpg"
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa8%2F0a%2Fa80a9948cd79b7ba6e235bd18b46f08b725b7625.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
       ],
       "details": {
-        "material": "Nylon and Spandex",
-        "sizes": ["XS", "S", "M", "L"],
-        "brand": "Nike"
+        "material": "Chiffon",
+        "sizes": ["S", " M", " L", " XL"]
       }
     }
   ]
