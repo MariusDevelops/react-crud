@@ -6,6 +6,7 @@ const routes = {
     routePath: `${ProductPagePath}:id`,
     createLink: (id: string | number) => `${ProductPagePath}${id}`,
   },
+  ProductCreatePage: '/house-create-page',
 } as const;
 
 export type Routes = typeof routes;

@@ -26,10 +26,10 @@ const ProductCard: React.FC<ProductCardProps> = ({
     <Stack sx={{ boxShadow: 3, position: 'relative' }}>
       <Img src={images[1]} alt="" sx={{ aspectRatio: 'auto', width: 1 }} />
       <Styled.AdminActions>
-        <Button variant="contained" color="warning">
+        <Button variant="contained" color="warning" size="small">
           Update
         </Button>
-        <Button variant="contained" color="error">
+        <Button variant="contained" color="error" size="small">
           Delete
         </Button>
       </Styled.AdminActions>
