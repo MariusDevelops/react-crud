@@ -6,6 +6,14 @@ export const ContentWrapper = styled(Stack)(({ theme }) => ({
   padding: theme.spacing(1, 2),
 }));
 
+export const AdminActions = styled(Box)(({ theme }) => ({
+  position: 'absolute',
+  display: 'flex',
+  gap: theme.spacing(1),
+  top: theme.spacing(1),
+  right: theme.spacing(1),
+}));
+
 export const Price = styled(Box)(({ theme }) => ({
   display: 'inline-flex',
   alignItems: 'flex-end',

@@ -23,8 +23,16 @@ const ProductCard: React.FC<ProductCardProps> = ({
   const navigate = useNavigate();
 
   return (
-    <Stack sx={{ boxShadow: 3 }}>
+    <Stack sx={{ boxShadow: 3, position: 'relative' }}>
       <Img src={images[1]} alt="" sx={{ aspectRatio: 'auto', width: 1 }} />
+      <Styled.AdminActions>
+        <Button variant="contained" color="warning">
+          Update
+        </Button>
+        <Button variant="contained" color="error">
+          Delete
+        </Button>
+      </Styled.AdminActions>
       <Styled.ContentWrapper>
         <Box sx={{ flexGrow: 1 }}>
           <Typography component="h2" sx={{ fontWeight: 600, fontSize: '1.2rem' }}>{name}</Typography>
@@ -41,15 +49,19 @@ const ProductCard: React.FC<ProductCardProps> = ({
 
         </Box>
 
-        <Button
-          sx={{ mt: 2, color: 'black', borderColor: 'black' }}
-          variant="outlined"
-          onClick={() => navigate(routes.ProductPage.createLink(id))}
-        >
-          DETAILS
+        <Styled.ButtonContainer>
+          <Button color="secondary" variant="outlined">Remeber</Button>
+          <Button
+            // sx={{ mt: 2, color: 'black', borderColor: 'black' }}
+            color="primary"
+            variant="contained"
+            onClick={() => navigate(routes.ProductPage.createLink(id))}
+          >
+            DETAILS
 
-        </Button>
-        <Styled.ButtonContainer />
+          </Button>
+
+        </Styled.ButtonContainer>
       </Styled.ContentWrapper>
     </Stack>
   );
