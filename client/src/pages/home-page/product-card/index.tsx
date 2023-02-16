@@ -1,3 +1,4 @@
+import React from 'react';
 import {
   Stack,
   Box,
@@ -6,7 +7,6 @@ import {
 } from '@mui/material';
 import Img from 'components/ui/img';
 import routes from 'navigation/routes';
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import * as Styled from './styled';
 
