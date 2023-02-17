@@ -1,4 +1,6 @@
+/* eslint-disable no-console */
 import React from 'react';
+import axios from 'axios';
 import {
   Stack,
   Box,
@@ -29,7 +31,21 @@ const ProductCard: React.FC<ProductCardProps> = ({
         <Button variant="contained" color="warning" size="small">
           Update
         </Button>
-        <Button variant="contained" color="error" size="small">
+        <Button
+          variant="contained"
+          color="error"
+          size="small"
+          onClick={() => {
+            axios.delete(`http://localhost:5024/products/${id}`)
+              .then((response) => {
+                window.location.reload();
+                console.log('Product deleted:', response.data);
+              })
+              .catch((error) => {
+                console.error('Error deleting product:', error);
+              });
+          }}
+        >
           Delete
         </Button>
       </Styled.AdminActions>

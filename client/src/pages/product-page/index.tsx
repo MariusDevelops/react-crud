@@ -68,7 +68,7 @@ const ProductPage = () => {
             <Typography variant="body1" sx={{ mb: 2 }}>
               Sizes:
               {' '}
-              {product.details.sizes.join(', ')}
+              {product.details.sizes}
             </Typography>
           </Box>
         )}
