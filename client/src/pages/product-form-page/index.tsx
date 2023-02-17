@@ -1,46 +1,54 @@
+/* eslint-disable max-len */
 /* eslint-disable no-console */
 /* eslint-disable no-alert */
+import { useNavigate } from 'react-router-dom';
 import React from 'react';
 import {
-  Stack,
-  Typography,
-  TextField,
-  Box,
   Button,
-  Rating,
+  Stack,
+  TextField,
+  Typography,
 } from '@mui/material';
+// import {
+//   Stack,
+//   Typography,
+//   TextField,
+//   Box,
+//   Button,
+//   Rating,
+// } from '@mui/material';
 import ImagesField from './images-field';
-import LocationField from './location-field';
+import DetailsField from './details-field';
 import * as Styled from './styled';
 
 const formatValues = (form: HTMLFormElement) => {
   const formData = new FormData(form);
 
-  const title = formData.get('title');
-  const price = formData.get('price');
-  const rating = formData.get('rating');
+  const name = formData.get('name');
+  // const price = formData.get('price');
+  // const rating = formData.get('rating');
   const images = formData.getAll('images');
-  const country = formData.get('country');
-  const city = formData.get('city');
+  const material = formData.get('material');
+  const sizes = formData.get('sizes');
 
-  if (title === null || title instanceof File || title.length < 2) throw new Error('incorrect Title');
-  if (price === null || price instanceof File || price.length < 1) throw new Error('incorrect Price');
-  if (rating === null || rating instanceof File || rating.length < 1) throw new Error('incorrect Rating');
-  if (country === null || country instanceof File || country.length < 2) throw new Error('incorrect Country');
-  if (city === null || city instanceof File || city.length < 2) throw new Error('incorrect City');
+  if (name === null || name instanceof File || name.length < 2) throw new Error('incorrect name');
+  // if (price === null || price instanceof File || price.length < 1) throw new Error('incorrect Price');
+  // if (rating === null || rating instanceof File || rating.length < 1) throw new Error('incorrect Rating');
+  if (material === null || material instanceof File || material.length < 2) throw new Error('incorrect Material');
+  if (sizes === null || sizes instanceof File || sizes.length < 2) throw new Error('incorrect Sizes');
   images.forEach((img, i) => {
     if (img instanceof File || img.length < 2) throw new Error(`incorrect Image nr: ${i + 1}`);
   });
 
   return {
-    title,
-    location: {
-      country,
-      city,
+    name,
+    details: {
+      material,
+      sizes,
     },
     images: images as string[],
-    price: `${Number(price).toFixed(2)}€`,
-    rating: Number(rating),
+    // price: `${Number(price).toFixed(2)}€`,
+    // rating: Number(rating),
   };
 };
 
@@ -49,6 +57,7 @@ type ProductFormPageProps = {
 };
 
 const ProductFormPage: React.FC<ProductFormPageProps> = () => {
+  const navigate = useNavigate();
   const formRef = React.useRef<HTMLFormElement | null>(null);
 
   const handleSubmit: React.FormEventHandler<HTMLFormElement> = (event) => {
@@ -58,6 +67,22 @@ const ProductFormPage: React.FC<ProductFormPageProps> = () => {
     try {
       const values = formatValues(formRef.current);
       console.log(values);
+
+      fetch('http://localhost:5024/products', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(values),
+      }).then((response) => {
+        if (response.ok) {
+          console.log('Product created successfully');
+          formRef.current?.reset();
+          navigate('/');
+        } else {
+          console.error('Failed to create product');
+        }
+      });
     } catch (error) {
       alert(error instanceof Error ? error.message : error);
     }
@@ -68,11 +93,11 @@ const ProductFormPage: React.FC<ProductFormPageProps> = () => {
       <Styled.PaperForm elevation={4} onSubmit={handleSubmit} ref={formRef}>
         <Typography variant="h4" sx={{ textAlign: 'center' }}>Create Product</Typography>
         <Stack sx={{ gap: 2, mt: 2 }}>
-          <TextField label="Title" fullWidth variant="filled" name="title" required />
-          <LocationField />
+          <TextField label="name" fullWidth variant="filled" name="name" required />
+          <DetailsField />
           <ImagesField />
 
-          <TextField
+          {/* <TextField
             label="Price"
             fullWidth
             variant="filled"
@@ -80,11 +105,11 @@ const ProductFormPage: React.FC<ProductFormPageProps> = () => {
             type="number"
             inputProps={{ step: '0.01' }}
             required
-          />
-          <Box>
+          /> */}
+          {/* <Box>
             <Typography component="legend">Rating</Typography>
             <Rating name="rating" />
-          </Box>
+          </Box> */}
 
           <Stack alignItems="center" sx={{ mt: 2 }}>
             <Button

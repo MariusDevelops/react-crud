@@ -46,9 +46,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
               {`Size: ${details.sizes}`}
             </Typography>
           </Box>
-
         </Box>
-
         <Styled.ButtonContainer>
           <Button color="secondary" variant="outlined">Remeber</Button>
           <Button
@@ -58,9 +56,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
             onClick={() => navigate(routes.ProductPage.createLink(id))}
           >
             DETAILS
-
           </Button>
-
         </Styled.ButtonContainer>
       </Styled.ContentWrapper>
     </Stack>
