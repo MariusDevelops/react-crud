@@ -4,12 +4,20 @@ import React from 'react'; import {
   Box,
 } from '@mui/material';
 
-const DetailsField = () => (
+type DetailsFieldProps = {
+  defaultMaterial?: string,
+  defaultSizes?: string,
+};
+
+const DetailsField: React.FC<DetailsFieldProps> = ({
+  defaultMaterial,
+  defaultSizes,
+}) => (
   <Box>
     <Typography variant="subtitle1" sx={{ pl: 1 }}>Details</Typography>
     <Box sx={{ display: 'flex', gap: 2 }}>
-      <TextField label="Material" fullWidth variant="filled" name="material" required />
-      <TextField label="Sizes" fullWidth variant="filled" name="sizes" required />
+      <TextField label="Material" fullWidth variant="filled" name="material" required defaultValue={defaultMaterial} />
+      <TextField label="Sizes" fullWidth variant="filled" name="sizes" required defaultValue={defaultSizes} />
     </Box>
   </Box>
 );

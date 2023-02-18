@@ -28,7 +28,12 @@ const ProductCard: React.FC<ProductCardProps> = ({
     <Stack sx={{ boxShadow: 3, position: 'relative' }}>
       <Img src={images[1]} alt="" sx={{ aspectRatio: 'auto', width: 1 }} />
       <Styled.AdminActions>
-        <Button variant="contained" color="warning" size="small">
+        <Button
+          variant="contained"
+          color="warning"
+          size="small"
+          onClick={() => navigate(routes.ProductUpdatePage.createLink(id))}
+        >
           Update
         </Button>
         <Button

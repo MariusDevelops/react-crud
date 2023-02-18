@@ -21,7 +21,12 @@ const router = createBrowserRouter([
       },
       {
         path: routes.ProductCreatePage,
-        element: <ProductFormPage mode="create" />,
+        element: <ProductFormPage />,
+        // element: <ProductFormPage mode="create" />,
+      },
+      {
+        path: routes.ProductUpdatePage.routePath,
+        element: <ProductFormPage mode="update" />,
       },
     ],
   },

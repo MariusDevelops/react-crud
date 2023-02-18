@@ -6,7 +6,6 @@ type ProductModel = {
   images: string[],
   details: {
     material: string,
-    sizes: string[],
-    brand: string
+    sizes: string
   }
 };
