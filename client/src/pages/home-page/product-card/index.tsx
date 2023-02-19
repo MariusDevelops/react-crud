@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import React from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 import {
   Stack,
@@ -23,6 +23,22 @@ const ProductCard: React.FC<ProductCardProps> = ({
   details,
 }) => {
   const navigate = useNavigate();
+  const [isDeleted, setIsDeleted] = useState(false);
+
+  const handleDelete = () => {
+    axios.delete(`http://localhost:5024/products/${id}`)
+      .then((response) => {
+        console.log('Product deleted:', response.data);
+        setIsDeleted(true);
+      })
+      .catch((error) => {
+        console.error('Error deleting product:', error);
+      });
+  };
+
+  if (isDeleted) {
+    return null;
+  }
 
   return (
     <Stack sx={{ boxShadow: 3, position: 'relative' }}>
@@ -40,16 +56,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
           variant="contained"
           color="error"
           size="small"
-          onClick={() => {
-            axios.delete(`http://localhost:5024/products/${id}`)
-              .then((response) => {
-                window.location.reload();
-                console.log('Product deleted:', response.data);
-              })
-              .catch((error) => {
-                console.error('Error deleting product:', error);
-              });
-          }}
+          onClick={handleDelete}
         >
           Delete
         </Button>
