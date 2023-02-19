@@ -5,9 +5,11 @@ import { useNavigate, useParams } from 'react-router-dom';
 import React from 'react';
 import {
   Button,
+  Box,
   Stack,
   TextField,
   Typography,
+  Rating,
 } from '@mui/material';
 // import {
 //   Stack,
@@ -90,7 +92,28 @@ const ProductFormPage: React.FC<ProductFormPageProps> = ({ mode = 'create' }) =>
         {/* <Typography variant="h4" sx={{ textAlign: 'center' }}>Create Product</Typography> */}
         <Typography variant="h4" sx={{ textAlign: 'center' }}>{titleMap[mode]}</Typography>
         <Stack sx={{ gap: 2, mt: 2 }}>
-          <TextField label="Name" fullWidth variant="filled" name="name" required defaultValue={product?.name} />
+          <TextField label="Title" fullWidth variant="filled" name="name" required defaultValue={product?.name} />
+          <TextField
+            label="Description"
+            fullWidth
+            variant="filled"
+            name="description"
+            multiline
+            rows={4}
+            required
+            defaultValue={product?.description}
+          />
+          <TextField
+            label="Price"
+            fullWidth
+            variant="filled"
+            name="price"
+            type="number"
+            inputProps={{ step: '0.01' }}
+            required
+            // defaultValue={product?.price.slice(0, -1)}
+            defaultValue={product ? product.price.toString().slice(0, -1) : ''}
+          />
           <DetailsField
             defaultMaterial={product?.details.material}
             defaultSizes={product?.details.sizes}
@@ -106,10 +129,10 @@ const ProductFormPage: React.FC<ProductFormPageProps> = ({ mode = 'create' }) =>
             inputProps={{ step: '0.01' }}
             required
           /> */}
-          {/* <Box>
+          <Box>
             <Typography component="legend">Rating</Typography>
-            <Rating name="rating" />
-          </Box> */}
+            <Rating name="rating" defaultValue={product?.rating} />
+          </Box>
 
           <Stack alignItems="center" sx={{ mt: 2 }}>
             <Button

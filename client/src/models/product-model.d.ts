@@ -7,5 +7,6 @@ type ProductModel = {
   details: {
     material: string,
     sizes: string
-  }
+  },
+  rating: number
 };

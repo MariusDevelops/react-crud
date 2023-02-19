@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable no-console */
 import React, { useState } from 'react';
 import axios from 'axios';
@@ -17,10 +18,11 @@ type ProductCardProps = ProductModel;
 const ProductCard: React.FC<ProductCardProps> = ({
   id,
   name,
-  description,
+  // description,
   price,
   images,
   details,
+  rating,
 }) => {
   const navigate = useNavigate();
   const [isDeleted, setIsDeleted] = useState(false);
@@ -64,8 +66,12 @@ const ProductCard: React.FC<ProductCardProps> = ({
       <Styled.ContentWrapper>
         <Box sx={{ flexGrow: 1 }}>
           <Typography component="h2" sx={{ fontWeight: 600, fontSize: '1.2rem' }}>{name}</Typography>
-          <Box sx={{ fontSize: '1rem', fontWeight: 'light' }}>{description}</Box>
-          <Styled.Price sx={{ my: 1 }}>{price}</Styled.Price>
+          <Box>
+            {/* <Box sx={{ fontSize: '1.3rem', color: 'primary.main', fontWeight: 600 }}>{price}</Box> */}
+            <Styled.Price sx={{ my: 1 }}>{price}</Styled.Price>
+            <Styled.Rating sx={{ float: 'right' }}>{rating}</Styled.Rating>
+          </Box>
+          {/* <Box sx={{ fontSize: '1rem', fontWeight: 'light' }}>{description}</Box> */}
           <Box sx={{ float: 'inline-end', textAlign: 'right' }}>
             <Typography component="h3" sx={{ color: 'grey.500', fontSize: '1.1rem' }}>
               {`Material: ${details.material}`}

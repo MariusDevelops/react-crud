@@ -1,6 +1,6 @@
 export const titleMap = {
-  create: 'Create House',
-  update: 'Update House',
+  create: 'Create Product',
+  update: 'Update Product',
 } as const;
 
 export const btnMap = {

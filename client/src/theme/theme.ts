@@ -6,9 +6,9 @@ const theme = createTheme({
     appBar: 1250,
   },
   palette: {
-    warning: {
-      main: '#ffeb3b',
-    },
+    // warning: {
+    //   main: '#ffeb3b',
+    // },
   },
 });
 

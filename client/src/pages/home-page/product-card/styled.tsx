@@ -37,3 +37,15 @@ export const ButtonContainer = styled(Box)(({ theme }) => ({
     flexGrow: 1,
   },
 }));
+
+export const Rating = styled(Box)(({ theme }) => ({
+  display: 'inline-flex',
+  alignItems: 'flex-end',
+  fontSize: '1.3rem',
+  color: theme.palette.warning.main,
+  gap: theme.spacing(0.2),
+  fontWeight: 600,
+  '&:after': {
+    content: '"★"',
+  },
+}));
