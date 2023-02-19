@@ -44,26 +44,39 @@ const ProductFormPage: React.FC<ProductFormPageProps> = ({ mode = 'create' }) =>
       if (mode === 'create') {
         console.log('Daromas Sukūrimas');
         console.log(values);
+        fetch('http://localhost:5024/products', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(values),
+        }).then((response) => {
+          if (response.ok) {
+            console.log('Product created successfully');
+            formRef.current?.reset();
+            navigate('/');
+          } else {
+            console.error('Failed to create product');
+          }
+        });
       } else {
         console.log('Daromas Atnaujinimas, id:', id);
         console.log(values);
+        fetch(`http://localhost:5024/products/${id}`, {
+          method: 'PUT',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(values),
+        }).then((response) => {
+          if (response.ok) {
+            console.log('Product updated successfully');
+            navigate('/');
+          } else {
+            console.error('Failed to update product');
+          }
+        });
       }
-
-      fetch('http://localhost:5024/products', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(values),
-      }).then((response) => {
-        if (response.ok) {
-          console.log('Product created successfully');
-          formRef.current?.reset();
-          navigate('/');
-        } else {
-          console.error('Failed to create product');
-        }
-      });
     } catch (error) {
       alert(error instanceof Error ? error.message : error);
     }
