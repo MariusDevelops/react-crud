@@ -40,10 +40,36 @@ const ProductPage = () => {
   };
 
   return (
-    <Grid container spacing={2} sx={{ my: 4, ml: 20 }} justifyContent="center" alignItems="center">
-      <Grid item xs={12} sm={6}>
+    <Grid
+      container
+      spacing={2}
+      sx={{
+        my: 4,
+        margin: 'auto',
+        maxWidth: '1200px',
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: {
+          xs: '100%', sm: '90%', md: '80%', lg: '70%',
+        },
+      }}
+    >
+      <Grid
+        item
+        sx={{ my: 4, mx: 'auto' }}
+      >
         {product && (
-          <Box sx={{ mx: 'auto', width: 500 }}>
+          <Box sx={{
+            mx: 'auto',
+            width: 500,
+            '@media (max-width: 600px)': {
+              width: '300px',
+            },
+            '@media (max-width: 350px)': {
+              width: '250px',
+            },
+          }}
+          >
             <Slider {...sliderSettings}>
               {product.images.map((imageUrl) => (
                 <img key={imageUrl} src={imageUrl} alt={product.name} />
@@ -52,9 +78,19 @@ const ProductPage = () => {
           </Box>
         )}
       </Grid>
-      <Grid item xs={12} sm={6}>
+      <Grid
+        item
+        sx={{ my: 4, mx: 'auto' }}
+      >
         {product && (
-          <Box sx={{ ml: 2, width: 300 }}>
+          <Box sx={{
+            ml: 2,
+            width: 300,
+            '@media (max-width: 350px)': {
+              width: '200px',
+            },
+          }}
+          >
             <Typography variant="h4" sx={{ mb: 2 }}>{product.name}</Typography>
             <Typography variant="body1" sx={{ mb: 2 }}>{product.description}</Typography>
             <Typography variant="body1" sx={{ mb: 2 }}>
