@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Crinkled Chiffon Shirt",
       "description": "Relaxed-fit shirt in crinkled chiffon. Collar, buttons at front, dropped shoulders, and long sleeves with button at cuffs. Rounded hem, slightly longer at back.",
-      "price": 29.99,
+      "price": 23.99,
       "images": [
         "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
         "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
@@ -12,173 +12,172 @@
       ],
       "details": {
         "material": "Chiffon",
-        "sizes": ["S", " M", " L", " XL"]
+        "sizes": "XS, S, M, L, XL"
       }
     },
     {
       "id": 2,
-      "name": "Blue Jeans",
-      "description": "Stylish, durable blue jeans for any occasion.",
-      "price": 49.99,
+      "name": "Oversized Fit Patterned Resort Shirt",
+      "description": "Oversized shirt in woven cotton fabric with a printed pattern. Resort collar, buttons without placket, and yoke at back. Open chest pocket, short sleeves, and a straight-cut hem with slit at sides.",
+      "price": 19.99,
       "images": [
-        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
-        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa8%2F0a%2Fa80a9948cd79b7ba6e235bd18b46f08b725b7625.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        "https://lp2.hm.com/hmgoepprod?set=source[/a5/f6/a5f683d0c19cdfec46fc27a3cdb3dde1e24e08fe.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F78%2Fd1%2F78d16f6fc7af24440746b1e839e342abae2504de.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F78%2F1c%2F781c0a6ed824e5f9deaaf031ccb8f0b4eb193f1a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
       ],
       "details": {
-        "material": "Denim",
-        "sizes": ["XS", "S", "M", "L"],
-        "brand": "H&M"
+        "material": "Cotton",
+        "sizes": "M, L, XL, XXL"
       }
     },
     {
       "id": 3,
-      "name": "White Sneakers",
-      "description": "Classic white sneakers for any outfit.",
-      "price": 29.99,
+      "name": "Oversized Rib-knit Sweater",
+      "description": "Oversized sweater in soft, rib-knit cotton. Round neckline, heavily dropped shoulders, and long, wide sleeves. Straight hem with slit at sides.",
+      "price": 51.99,
       "images": [
-        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
-        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa8%2F0a%2Fa80a9948cd79b7ba6e235bd18b46f08b725b7625.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F54%2Fcd%2F54cda4440ea4f7ebe67ae397058c5390ebafe461.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F9c%2F9a%2F9c9a2b0af8fcbd004ea784abae972ecb022c2501.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Ff6%2F95%2Ff695ebe111c37e2a0d0f142a262cb7c868d2b253.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
       ],
       "details": {
-        "material": "Chiffon",
-        "sizes": ["S", " M", " L", " XL"]
+        "material": "Cotton",
+        "sizes": "L, XL, XXL"
       }
     },
     {
       "id": 4,
-      "name": "Black Leather Jacket",
-      "description": "A sleek black leather jacket for any occasion.",
-      "price": 99.99,
+      "name": "90s Baggy High Cargo Jeans",
+      "description": "Relaxed-fit jeans in thick cotton denim. High waist, zip fly with button, and dropped gusset. Straight, extra-long legs. Front pockets, leg pockets with flap, and back pockets.",
+      "price": 27.99,
       "images": [
-        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
-        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa8%2F0a%2Fa80a9948cd79b7ba6e235bd18b46f08b725b7625.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        "https://lp2.hm.com/hmgoepprod?set=source[/80/36/803641606979458070a2f9f418e4748fbbbc1664.jpg],origin[dam],category[ladies_divided_jeans_loose],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa4%2F4f%2Fa44fed6e680fd851d8c8f8611920301f41e95e73.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F7a%2Fb2%2F7ab2d6ff62a4d9c6f3cb824256593a66c9f1468b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
       ],
       "details": {
-        "material": "Chiffon",
-        "sizes": ["S", " M", " L", " XL"]
+        "material": "Denim",
+        "sizes": "S, L"
       }
     },
     {
       "id": 5,
-      "name": "Green Hoodie",
-      "description": "A comfortable green hoodie for a casual look.",
-      "price": 39.99,
+      "name": "Baggy Jeans",
+      "description": "5-pocket jeans in non-stretch cotton denim for denim perfection. Rounded legs and baggy fit from seat to hem with plenty of room around legs. Regular waist, zip fly, and dropped gusset. Stacked at ankle.",
+      "price": 31.99,
       "images": [
-        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
-        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa8%2F0a%2Fa80a9948cd79b7ba6e235bd18b46f08b725b7625.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        "https://lp2.hm.com/hmgoepprod?set=source[/6d/04/6d040f389c25fdfca6dc5bd2c37b813160bf7bcf.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F25%2Fdb%2F25db61c1e41d7f5ecc9e9ee99a470600bba64715.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F9b%2F30%2F9b307afbbf122b7c37491f836148444827ec5ed0.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
       ],
       "details": {
-        "material": "Chiffon",
-        "sizes": ["S", " M", " L", " XL"]
+        "material": "Cotton",
+        "sizes": "S, M, L, XL, XXL"
       }
     },
-        {
+    {
       "id": 6,
-      "name": "Striped Shirt",
-      "description": "A stylish striped shirt for a casual or professional look.",
-      "price": 29.99,
+      "name": "Rib-knit Sweater",
+      "description": "Soft, rib-knit sweater. Round neckline, dropped shoulders, and long sleeves. Straight hem.",
+      "price": 19.99,
       "images": [
-        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
-        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa8%2F0a%2Fa80a9948cd79b7ba6e235bd18b46f08b725b7625.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        "https://lp2.hm.com/hmgoepprod?set=source[/56/ab/56ab0b3cbfd86291ba158c8e65ef75802ccbd668.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F34%2F4e%2F344ed782811dc1fa8577b86be250a67403897a73.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F2d%2F91%2F2d91552f134931013245289c6e0e42505ba51e88.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
       ],
       "details": {
-        "material": "Chiffon",
-        "sizes": ["S", " M", " L", " XL"]
+        "material": "Acrylic",
+        "sizes": "S, M, L"
       }
     },
     {
       "id": 7,
-      "name": "Denim Shorts",
-      "description": "A comfortable pair of denim shorts for the summer.",
-      "price": 19.99,
+      "name": "Balloon-sleeved Smocked Dress",
+      "description": "Calf-length dress in woven fabric. Sweetheart neckline, a fitted, smocked bodice, and long balloon sleeves. Narrow elastic at neckline, over shoulders, and at cuffs. Gently flared skirt. Unlined.",
+      "price": 31.99,
       "images": [
-        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
-        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa8%2F0a%2Fa80a9948cd79b7ba6e235bd18b46f08b725b7625.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        "https://lp2.hm.com/hmgoepprod?set=source[/97/89/9789a44f6664222e3e26ca8c21dc6481b0475266.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Faf%2F89%2Faf89862cd12550cda7045f3957d668c2e1eb75bd.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F80%2F84%2F8084b4de46555f4c995795a098e080541017df27.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
       ],
       "details": {
-        "material": "Chiffon",
-        "sizes": ["S", " M", " L", " XL"]
+        "material": "Rayon",
+        "sizes": "L, XL"
       }
     },
     {
       "id": 8,
-      "name": "Sneakers",
-      "description": "A comfortable pair of sneakers for any outfit.",
+      "name": "Slim Fit Blazer",
+      "description": "Single-button blazer in woven stretch fabric with narrow, notched lapels with decorative buttonhole. Chest pocket, front pockets with flap, and one inner pocket. Two buttons at front, decorative buttons at cuffs, and vent at back. Lined. Slim fit - tapered at chest and waist with slightly narrower sleeves for a tailored silhouette.",
       "price": 59.99,
       "images": [
-        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
-        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa8%2F0a%2Fa80a9948cd79b7ba6e235bd18b46f08b725b7625.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        "https://lp2.hm.com/hmgoepprod?set=source[/84/95/849589bb25cff6b4bf54d23b07f306daabffdf26.jpg],origin[dam],category[men_blazerssuits_blazers],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Faf%2Faa%2Fafaa41f445cea743aae7935ed954120d3fa6d38b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F2a%2Fe4%2F2ae47891a1a8499c2fcd2bc24b0c231673421e9d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
       ],
       "details": {
-        "material": "Chiffon",
-        "sizes": ["S", " M", " L", " XL"]
+        "material": "Polyester",
+        "sizes": "M, L, XL"
       }
     },
     {
       "id": 9,
-      "name": "Leather Jacket",
-      "description": "A classic leather jacket that never goes out of style.",
-      "price": 199.99,
+      "name": "Relaxed Fit Hoodie",
+      "description": "Relaxed-fit sweatshirt hoodie in cotton-blend fabric with soft, brushed inside. Jersey-lined drawstring hood, kangaroo pocket, and long sleeves. Wide ribbing at cuffs and hem.",
+      "price": 19.99,
       "images": [
-        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
-        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa8%2F0a%2Fa80a9948cd79b7ba6e235bd18b46f08b725b7625.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        "https://lp2.hm.com/hmgoepprod?set=source[/ce/27/ce2716018b0d31062b76b65dac1e544d74b6ed70.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fdd%2Fb8%2Fddb8d79360fb5a2d8916f2681a59f41842d82204.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fbc%2F31%2Fbc31b00ff1e510cebbfe42af505d590c5c4b36ee.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
       ],
       "details": {
-        "material": "Chiffon",
-        "sizes": ["S", " M", " L", " XL"]
+        "material": "Cotton",
+        "sizes": "S, M, L, XL"
       }
     },
     {
       "id": 10,
-      "name": "Cashmere Sweater",
-      "description": "A soft and warm cashmere sweater for a luxurious feel.",
-      "price": 129.99,
+      "name": "Gathered-sleeve Jacket",
+      "description": "Fitted jacket in woven fabric made from a LivaEco™ viscose blend. Notched lapels, gathered, 3/4-length sleeves with shoulder pads, and front pockets with flap. No fasteners. Lined.",
+      "price": 47.99,
       "images": [
-        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
-        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa8%2F0a%2Fa80a9948cd79b7ba6e235bd18b46f08b725b7625.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        "https://lp2.hm.com/hmgoepprod?set=source[/b6/89/b689f65cdc6e258875b3f713d1c456dbf6641e14.jpg],origin[dam],category[ladies_blazers],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F6f%2F04%2F6f043e492767e05003efd797c22f3fb64b0edb96.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F46%2F8d%2F468d3376e24dd41871bde00d7cfe436a115f4335.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
       ],
       "details": {
-        "material": "Chiffon",
-        "sizes": ["S", " M", " L", " XL"]
+        "material": "Rayon",
+        "sizes": "L, XL, XXL"
       }
     },
     {
       "id": 11,
-      "name": "Faux Fur Coat",
-      "description": "A cozy and stylish faux fur coat for the winter season.",
-      "price": 149.99,
+      "name": "Double-breasted Bouclé Jacket",
+      "description": "Double-breasted jacket in woven, textured bouclé. Notched lapels, buttons at front, and welt front pockets with flap. Shoulder pads and long sleeves. Lined.",
+      "price": 47.99,
       "images": [
-        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
-        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa8%2F0a%2Fa80a9948cd79b7ba6e235bd18b46f08b725b7625.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        "https://lp2.hm.com/hmgoepprod?set=source[/66/62/66623c74b97a099c245b245605bbd430b2c467d2.jpg],origin[dam],category[ladies_blazers],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc0%2Fc1%2Fc0c1c8ec1b2eb8c6f186c0fbb0530cc4f26e400d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F2e%2F8e%2F2e8ee33e9194fcd7258316474171b756a8bcefb4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
       ],
       "details": {
-        "material": "Chiffon",
-        "sizes": ["S", " M", " L", " XL"]
+        "material": "Polyester",
+        "sizes": "S, L, XL, XXL"
       }
     },
     {
       "id": 12,
-      "name": "Athletic Leggings",
-      "description": "Stretchy and comfortable leggings for your daily workout.",
-      "price": 39.99,
+      "name": "Relaxed Fit Printed Hoodie",
+      "description": "Relaxed-fit sweatshirt hoodie in cotton-blend fabric with a printed motif and soft, brushed inside. Double-layered hood with drawstring. Dropped shoulders, long sleeves, and a kangaroo pocket. Ribbing at cuffs and hem.",
+      "price": 27.99,
       "images": [
-        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F07%2F66%2F0766d7e6b642b035bb73ac48965394ae95b838f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F5e%2Fc55eb346349ae079191c280779ec898031e7223c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
-        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa8%2F0a%2Fa80a9948cd79b7ba6e235bd18b46f08b725b7625.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        "https://lp2.hm.com/hmgoepprod?set=source[/2c/22/2c22ea3488c765155d75a9b7aa200dee4c4a374e.jpg],origin[dam],category[men_hoodiessweatshirts_hoodies],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc1%2F50%2Fc150eb3969a3767573f46a5be4d89caf11a171df.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+        "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F8c%2F05%2F8c05c4c15aaae64f5cbad51363b3bd1d0d798b39.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
       ],
       "details": {
-        "material": "Chiffon",
-        "sizes": ["S", " M", " L", " XL"]
+        "material": "Cotton ",
+        "sizes": "L, XXL"
       }
     }
   ]
