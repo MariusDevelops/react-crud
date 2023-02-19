@@ -18,7 +18,6 @@ type ProductCardProps = ProductModel;
 const ProductCard: React.FC<ProductCardProps> = ({
   id,
   name,
-  // description,
   price,
   images,
   details,
@@ -64,7 +63,10 @@ const ProductCard: React.FC<ProductCardProps> = ({
         </Button>
       </Styled.AdminActions>
       <Styled.ContentWrapper>
-        <Box sx={{ flexGrow: 1 }}>
+        <Box sx={{
+          flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between',
+        }}
+        >
           <Typography component="h2" sx={{ fontWeight: 600, fontSize: '1.2rem' }}>{name}</Typography>
           <Box>
             {/* <Box sx={{ fontSize: '1.3rem', color: 'primary.main', fontWeight: 600 }}>{price}</Box> */}
@@ -72,7 +74,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
             <Styled.Rating sx={{ float: 'right' }}>{rating}</Styled.Rating>
           </Box>
           {/* <Box sx={{ fontSize: '1rem', fontWeight: 'light' }}>{description}</Box> */}
-          <Box sx={{ float: 'inline-end', textAlign: 'right' }}>
+          <Box sx={{ textAlign: 'right' }}>
             <Typography component="h3" sx={{ color: 'grey.500', fontSize: '1.1rem' }}>
               {`Material: ${details.material}`}
             </Typography>
@@ -81,17 +83,14 @@ const ProductCard: React.FC<ProductCardProps> = ({
             </Typography>
           </Box>
         </Box>
-        <Styled.ButtonContainer>
-          <Button color="secondary" variant="outlined">Remeber</Button>
-          <Button
-            // sx={{ mt: 2, color: 'black', borderColor: 'black' }}
-            color="primary"
-            variant="contained"
-            onClick={() => navigate(routes.ProductPage.createLink(id))}
-          >
-            DETAILS
-          </Button>
-        </Styled.ButtonContainer>
+        <Button
+          sx={{ mt: 2 }}
+          color="primary"
+          variant="contained"
+          onClick={() => navigate(routes.ProductPage.createLink(id))}
+        >
+          DETAILS
+        </Button>
       </Styled.ContentWrapper>
     </Stack>
   );

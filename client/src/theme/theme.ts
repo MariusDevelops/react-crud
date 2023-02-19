@@ -6,9 +6,22 @@ const theme = createTheme({
     appBar: 1250,
   },
   palette: {
-    // warning: {
-    //   main: '#ffeb3b',
-    // },
+    primary: {
+      main: '#212121',
+      dark: '#c62828',
+    },
+    success: {
+      main: '#212121',
+      dark: '#c62828',
+    },
+    warning: {
+      main: '#212121',
+      dark: '#c62828',
+    },
+    error: {
+      main: '#212121',
+      dark: '#c62828',
+    },
   },
 });
 

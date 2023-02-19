@@ -97,6 +97,7 @@ const ProductPage = () => {
               Price:
               {' '}
               {product.price}
+              {' €'}
             </Typography>
             <Typography variant="body1" sx={{ mb: 2 }}>
               Material:
