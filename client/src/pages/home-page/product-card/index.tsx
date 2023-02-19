@@ -28,6 +28,9 @@ const ProductCard: React.FC<ProductCardProps> = ({
     axios.delete(`http://localhost:5024/products/${id}`)
       .then((response) => {
         console.log('Product deleted:', response.data);
+        console.log('Deleted product:', {
+          id, name, price, images, details, rating,
+        });
         setIsDeleted(true);
       })
       .catch((error) => {
