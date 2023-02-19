@@ -1,6 +1,5 @@
 import React from 'react';
 import { Navigate, useParams } from 'react-router-dom';
-// import ApiService from 'services/api-service';
 import routes from 'navigation/routes';
 import {
   Box,
@@ -15,18 +14,6 @@ import useProduct from 'hooks/useProduct';
 const ProductPage = () => {
   const { id } = useParams();
   const product = useProduct(id);
-
-  // const [product, setProduct] = React.useState<ProductModel | undefined>(undefined);
-
-  // React.useEffect(() => {
-  //   if (id !== undefined) {
-  //     (async () => {
-  //       const fetchedProducts = await ApiService.fetchProduct(id);
-
-  //       setProduct(fetchedProducts);
-  //     })();
-  //   }
-  // }, [id]);
 
   if (id === undefined) return <Navigate to={routes.HomePage} />;
   if (!product) return null;

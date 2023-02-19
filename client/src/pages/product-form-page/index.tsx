@@ -1,6 +1,3 @@
-/* eslint-disable max-len */
-/* eslint-disable no-console */
-/* eslint-disable no-alert */
 import { useNavigate, useParams } from 'react-router-dom';
 import React from 'react';
 import {
@@ -11,14 +8,7 @@ import {
   Typography,
   Rating,
 } from '@mui/material';
-// import {
-//   Stack,
-//   Typography,
-//   TextField,
-//   Box,
-//   Button,
-//   Rating,
-// } from '@mui/material';
+
 import useProduct from 'hooks/useProduct';
 import ImagesField from './images-field';
 import DetailsField from './details-field';
@@ -42,7 +32,6 @@ const ProductFormPage: React.FC<ProductFormPageProps> = ({ mode = 'create' }) =>
 
     try {
       const values = formatValues(formRef.current);
-      // console.log(values);
       if (mode === 'create') {
         console.log('Daromas Sukūrimas');
         console.log(values);
@@ -89,7 +78,6 @@ const ProductFormPage: React.FC<ProductFormPageProps> = ({ mode = 'create' }) =>
   return (
     <Styled.Container>
       <Styled.PaperForm elevation={4} onSubmit={handleSubmit} ref={formRef}>
-        {/* <Typography variant="h4" sx={{ textAlign: 'center' }}>Create Product</Typography> */}
         <Typography variant="h4" sx={{ textAlign: 'center' }}>{titleMap[mode]}</Typography>
         <Stack sx={{ gap: 2, mt: 2 }}>
           <TextField label="Title" fullWidth variant="filled" name="name" required defaultValue={product?.name} />
@@ -111,7 +99,6 @@ const ProductFormPage: React.FC<ProductFormPageProps> = ({ mode = 'create' }) =>
             type="number"
             inputProps={{ step: '0.01' }}
             required
-            // defaultValue={product?.price.slice(0, -1)}
             defaultValue={product ? product.price.toString().slice(0, -1) : ''}
           />
           <DetailsField
@@ -119,21 +106,10 @@ const ProductFormPage: React.FC<ProductFormPageProps> = ({ mode = 'create' }) =>
             defaultSizes={product?.details.sizes}
           />
           <ImagesField defaultImages={product?.images} />
-
-          {/* <TextField
-            label="Price"
-            fullWidth
-            variant="filled"
-            name="price"
-            type="number"
-            inputProps={{ step: '0.01' }}
-            required
-          /> */}
           <Box>
             <Typography component="legend">Rating</Typography>
             <Rating name="rating" defaultValue={product?.rating} />
           </Box>
-
           <Stack alignItems="center" sx={{ mt: 2 }}>
             <Button
               type="submit"
@@ -149,55 +125,5 @@ const ProductFormPage: React.FC<ProductFormPageProps> = ({ mode = 'create' }) =>
     </Styled.Container>
   );
 };
-
-//   return (
-//     <Styled.Container>
-//       <Styled.PaperForm elevation={4} onSubmit={handleSubmit} ref={formRef}>
-//         <Typography variant="h4" sx={{ textAlign: 'center' }}>{titleMap[mode]}</Typography>
-//         <Stack sx={{ gap: 2, mt: 2 }}>
-//           <TextField
-//             label="Title"
-//             fullWidth
-//             variant="filled"
-//             name="title"
-//             required
-//             defaultValue={house?.title}
-//           />
-//           <LocationField
-//             defaultCountry={house?.location.country}
-//             defaultCity={house?.location.city}
-//           />
-//           <ImagesField defaultImages={house?.images} />
-
-//           <TextField
-//             label="Price"
-//             fullWidth
-//             variant="filled"
-//             name="price"
-//             type="number"
-//             inputProps={{ step: '0.01' }}
-//             required
-//             defaultValue={house?.price.slice(0, -1)}
-//           />
-//           <Box>
-//             <Typography component="legend">Rating</Typography>
-//             <Rating name="rating" defaultValue={house?.rating} />
-//           </Box>
-
-//           <Stack alignItems="center" sx={{ mt: 2 }}>
-//             <Button
-//               type="submit"
-//               color={btnColorMap[mode]}
-//               variant="contained"
-//               size="large"
-//             >
-//               {btnMap[mode]}
-//             </Button>
-//           </Stack>
-//         </Stack>
-//       </Styled.PaperForm>
-//     </Styled.Container>
-//   );
-// };
 
 export default ProductFormPage;

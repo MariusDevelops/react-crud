@@ -18,8 +18,6 @@ export const Price = styled(Box)(({ theme }) => ({
   display: 'inline-flex',
   alignItems: 'flex-end',
   fontSize: '1.3rem',
-  // backgroundColor: theme.palette.warning.main,
-  // backgroundColor: '#ffeb3b',
   color: theme.palette.warning.dark,
   gap: theme.spacing(0.2),
   fontWeight: 600,
